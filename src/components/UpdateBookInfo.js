@@ -4,7 +4,7 @@ import { useNavigate, useParams, Link} from "react-router-dom";
 const  UpdateBookInfo = ()=>{
     const navitage = useNavigate();
 const {id} = useParams();
-const url = `http://mernbookstore.herokuapp.com/api/books/${id}`;
+const url = `https://mernbookstore.herokuapp.com/api/books/${id}`;
 const [book, setBook]= useState({
     title: "",
     isbn: "",

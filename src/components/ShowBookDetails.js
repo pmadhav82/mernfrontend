@@ -4,7 +4,7 @@ import { useParams, Link, useNavigate } from "react-router-dom";
 const ShowBookDetails = () =>{
 
 const {id} = useParams();
-const url = `http://mernbookstore.herokuapp.com/api/books/${id}`;
+const url = `https://mernbookstore.herokuapp.com/api/books/${id}`;
 
 const navitage = useNavigate();
 

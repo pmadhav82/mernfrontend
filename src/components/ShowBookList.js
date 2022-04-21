@@ -5,7 +5,7 @@ const ShowBookList = ()=>{
 const [books, setBook]= useState([]);
 const[ispending , setPending]= useState(true);
 const[ error, setError] = useState(null);
-const url = "http://mernbookstore.herokuapp.com/api/books";
+const url = "https://mernbookstore.herokuapp.com/api/books";
 
 useEffect( ()=> {
 const fetchData = async ()=>{
@@ -28,7 +28,7 @@ try{
 
 fetchData()
 
-},[books.length]) // eslint-disable-line react-hooks/exhaustive-deps
+},[books.length, url]) // eslint-disable-line react-hooks/exhaustive-deps
 
 
     return(

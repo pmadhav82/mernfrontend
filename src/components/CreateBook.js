@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 const CreateBook = () => {
     const [message, setMessage]= useState(null)
 
-    const url = "http://mernbookstore.herokuapp.com/api/books";
+    const url = "https://mernbookstore.herokuapp.com/api/books";
     const navitage = useNavigate();
 
     const [book, setBook] = useState({
