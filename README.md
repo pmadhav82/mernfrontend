@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## REST API of the project
-Go to [https://github.com/pmadhav82/REST-api-mernbook-store](REST-api-mernbook-store)
+Go to [REST-api-mernbook-store](https://github.com/pmadhav82/REST-api-mernbook-store)
 ## Available Scripts
 
 In the project directory, you can run:
